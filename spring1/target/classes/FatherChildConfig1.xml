@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean class="com.jspiders.spring1.bean.FatherBean1" name="father1">
+	<property name="Id" value="1"></property>
+	<property name="Name" value="Dashrath"></property>
+	</bean>
+	
+	<bean class="com.jspiders.spring1.bean.ChildBean1" name="child1">
+	<property name="Id" value="1"></property>
+	<property name="Name" value="Ram"></property>
+	<property name="father" ref="father1"></property>
+	</bean>
+	
+	<bean class="com.jspiders.spring1.bean.ChildBean1" name="child2">
+	<property name="Id" value="2"></property>
+	<property name="Name" value="Lakshaman"></property>
+	<property name="father" ref="father1"></property>
+	</bean>
+
+</beans>

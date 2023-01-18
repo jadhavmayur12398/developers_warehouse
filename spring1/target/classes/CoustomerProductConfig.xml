@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.jspiders.spring1.bean.CoustomerBean"
+		name="coustomer1">
+		<property name="Id" value="1"></property>
+		<property name="Name" value="abc"></property>
+		<property name="products">
+			<list>
+				<bean class="com.jspiders.spring1.bean.ProductBean" name="product1">
+				<property name="Id" value="1"></property>
+				<property name="Name" value="Laptop"></property>
+				</bean>
+				<bean class="com.jspiders.spring1.bean.ProductBean" name="product2">
+				<property name="Id" value="2"></property>
+				<property name="Name" value="Mobile"></property>
+				</bean>
+			</list>
+		</property>
+	</bean>
+	
+	<bean class="com.jspiders.spring1.bean.CoustomerBean"
+		name="coustomer2">
+		<property name="Id" value="2"></property>
+		<property name="Name" value="xyz"></property>
+		<property name="products">
+			<list>
+				<bean class="com.jspiders.spring1.bean.ProductBean" name="product1">
+				<property name="Id" value="1"></property>
+				<property name="Name" value="Laptop"></property>
+				</bean>
+				<bean class="com.jspiders.spring1.bean.ProductBean" name="product2">
+				<property name="Id" value="2"></property>
+				<property name="Name" value="Mobile"></property>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

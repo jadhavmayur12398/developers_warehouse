@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.jspiders.spring2.bean.StudentBean" name="student1">
+	<property name="Id"><value>1</value></property>
+	<property name="Name"><value>ram</value></property>
+	<property name="Email"><value>ram@ayodhya.com</value></property>
+	<property name="contact"><value>9876543210</value></property>
+	</bean>
+</beans>

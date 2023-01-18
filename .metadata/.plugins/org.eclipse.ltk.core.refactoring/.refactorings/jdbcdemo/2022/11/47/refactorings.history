@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;JdbcInsert.java&apos; to &apos;jdbc3/src/com.jspiders.jdbc3.insert&apos;&#x0D;&#x0A;- Original project: &apos;jdbcdemo&apos;&#x0D;&#x0A;- Destination element: &apos;jdbc3/src/com.jspiders.jdbc3.insert&apos;&#x0D;&#x0A;- Original element: &apos;JdbcInsert.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=jdbc3/src&lt;com.jspiders.jdbc3.insert" element1="JdbcInsert.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1668756184885" units="0" version="1.0"/>
+</session>

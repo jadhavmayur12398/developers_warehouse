@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean class="com.jspiders.spring1.bean.HusbandBean" name="husband1">
+	<property name="Id" value="1"></property>
+	<property name="Name" value="Ram"></property>
+	<property name="wife" ref="wife1"></property>
+	</bean>
+	
+	<bean class="com.jspiders.spring1.bean.WifeBean" name="wife1">
+	<property name="Id" value="1"></property>
+	<property name="Name" value="SitaMahalakshami"></property>
+	</bean>
+
+</beans>
